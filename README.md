@@ -49,12 +49,12 @@ bower install
 
 ####Run Node and view in Browser.
 
-On MacOS or Linux
+On **_MacOS_** or **_Linux_**
 ```shell
 DEBUG=myapp:* npm start
 ```
 
-On Windows
+On **_Windows_**
 ```shell
 set DEBUG=myapp:* & npm start
 ```
