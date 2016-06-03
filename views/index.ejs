@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <%- include('partials/head', {title: title}); %>
+    <%- include('partials/head', {title: nav.title}); %>
   </head>
   <body>
   <header>
-    <%- include('./partials/header', {name:webSiteName,links:links}) %>
+    <%- include('./partials/header', {name: nav.webSiteName,links: nav.links}) %>
   </header>
   
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <h1><%= nav.title %></h1>
+    <p>Welcome to <%= nav.title %></p>
     
     
     <footer>
@@ -18,4 +18,3 @@
     
   </body>
 </html>
-

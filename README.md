@@ -9,3 +9,28 @@ Right now I plan on using the following libraries to do this.
 *	Angular 1 or Angular 2
 
 I will probably add others as I learn them.
+
+## How to Run App
+
+make sure node.js is installed on your system then run the following commands
+
+
+Install all node dependencies
+```shell
+npm install
+bower install
+```
+
+####Run Node In The Browser.
+
+On MacOS or Linux
+```shell
+DEBUG=myapp:* npm start
+```
+
+On Windows
+```shell
+set DEBUG=myapp:* & npm start
+```
+
+Then load **http://localhost:3000/** in your browser to access the app.

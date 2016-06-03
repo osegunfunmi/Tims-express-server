@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "description": "Start of a server template",
+  "main": "",
+  "authors": [
+    "Tim"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/timothy/express-server",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "font-awesome": "fontawesome#^4.6.3"
+  }
+}
