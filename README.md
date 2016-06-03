@@ -47,7 +47,7 @@ npm install
 bower install
 ```
 
-####Run Node In The Browser.
+####Run Node and view in Browser.
 
 On MacOS or Linux
 ```shell
