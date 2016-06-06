@@ -41,13 +41,26 @@ If any prerequisites where missed please add it to the GitHub issues...
 make sure node.js is installed on your system then run the following commands
 
 
-Install all node dependencies
+Install all local node dependencies
 ```shell
 npm install
 bower install
 ```
 
-####Run Node and view in Browser.
+#### Start MongoDB
+MongoDB needs to be running before you start the node server.
+
+Do the following in the command line interface to **Run MongoDB**
+```shell
+<MONGO_INSTALL_DIRECTORY>/bin/mongod --dbpath <PATH_TO_DB_DIRECTORY>
+```
+
+For example, if you installed your MongoDB in the following location: _C:\Program Files\MongoDB\Server\3.2\bin_ and you want your data base information stored in this location: _C:\data\db_  then you would enter the following into the command line.
+```shell
+C:/Program Files/MongoDB/Server/3.2/bin/mongod --dbpath C:/data/db
+```
+
+####Start the Node Server and view in Web Page in Browser.
 
 On **_MacOS_** or **_Linux_**
 ```shell
