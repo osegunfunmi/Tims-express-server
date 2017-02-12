@@ -1,14 +1,10 @@
-# Full Stack Web App
+This is a back-end node express web application. It has a fully working login/signup, password hashing, persistent storage, and 5 views. I created this while learning to build node.js server applications.
 
-This is a basic starter full-stack node.js app. I will keep adding to it until it has a fully working login/signup. I like how asp.net gives a fully working login/sign up starter template as one of the options in Visual Studio. I am looking to create a starter template with similar functionality using node.js as my back end.
-
-I plan on using the following libraries in this project.
-*	Passport – for sign-up/ log-in and oath.
-*	EJS for templating – note: I may omit EJS and just do a full REST site using angular js.
-*	ExpressJS
-*	Angular 1 or Angular 2
-
-I will probably add others as I learn them.
+I used the following to create a node server with full authentication capabilities and persistent storage.
+*	Passport - for sign-up/ log-in and oath.
+*	EJS – templating language for rendering view to html.
+*	ExpressJS - as the server framework.
+* MongoDB - This is the data base used for persistent storage and currently stores login credentials.
 
 ## Prerequisites
 
